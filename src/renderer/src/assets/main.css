@@ -29,11 +29,10 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #555555;
-    @apply rounded-md;
+    @apply rounded-md bg-zinc-500;
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-slate-50;
+    @apply bg-transparent;
   }
 }

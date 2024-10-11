@@ -9,4 +9,6 @@ const dateFormatter = new Intl.DateTimeFormat(window.context.locale, {
 
 export const formatDateFromMs = (ms: number) => dateFormatter.format(ms)
 
-export const cn = (...args: ClassValue[]) => twMerge(clsx(...args))
+export const cn = (...args: ClassValue[]) => {
+  return twMerge(clsx(...args))
+}
